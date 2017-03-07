@@ -1,7 +1,7 @@
 ## Temporal-aware Neural Gas
 Implementation of a temporal-aware (not growing) neural gas 
 whose development mainly followed the description provided in the paper 
-["Gamma-filter self-organising neural networks for unsupervised sequence processing."](ttp://link.springer.com/chapter/10.1007%2F978-3-642-21566-7_15)
+["Gamma-filter self-organising neural networks for unsupervised sequence processing."](http://link.springer.com/chapter/10.1007%2F978-3-642-21566-7_15)
 ( Estevez, P. A., et al.).
 
 The neural gas is implemented to perform unsupervised learning on temporal sequences. 
@@ -13,8 +13,7 @@ A simple graphical representation of the “most frequent best matching units”
 
 ----------
 
-UPDATES: 
-
+#### Updates: 
 The neural gas has now been extended in order to perform classification tasks. As suggested in the paper  
 ["Online labelling strategies for growing neural gas."](http://link.springer.com/chapter/10.1007/978-3-642-23878-9_10)
 (Beyer, Oliver, and Philipp Cimiano. 2011), a labelling procedure has been added to the network. Following a simple frequency based method, the function assignes to each neuron a label corresponding to the category that has been most frequently "recognized" by the neuron.  
